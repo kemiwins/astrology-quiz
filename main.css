@@ -1,0 +1,63 @@
+/*{
+	border: black solid 1px;
+}*/
+body {
+	margin: auto;
+	font-family: "Josefin Slab", serif;
+	font-size: 22px;
+	background-image: url("images/stars-twinkling.png");
+}
+#header {
+	height: 100px;
+	width: 475px;
+	margin: auto;	
+	padding: 40px 0 0 0;
+}
+h1 {
+	margin: 10px auto;	
+	padding: 10px 0 10px 0;
+	font-size: 70px;
+	font-weight: bold;	
+	color: #fff;
+	text-align: vertical;		
+}
+#quiz {
+	height: 300px;
+	width: 400px;
+	border-radius: 10%;
+	margin: 20px auto;
+	padding: 20px 20px 0 20px;
+	background-color: #fff;	
+}
+.question {
+	width: 100%;
+	margin: auto;
+	font-weight: bold;
+}
+ul {
+	list-style-type: none;
+	padding: 0 0 0 35px;
+}
+.submit {
+	margin-top: 130px;
+}
+#submit_button {
+	display: block;
+	width: 150px;
+	height: 60px;
+	border-radius: 10px;
+	margin: auto;
+	background-color: #ff3333;
+	border: 0px solid;
+	font-size: 20px;
+	font-family: "Josefin Slab", serif;
+	font-weight: bold;
+}
+.correct_answer {
+	display: block;
+	margin-top: -190px;
+}
+.wrong_answer {
+	width: 100%;
+	margin-top: -190px;
+}
