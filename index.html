@@ -13,17 +13,62 @@
 		<h1>Astrology Quiz</h1>
 	</div>
 	<div id="quiz">
-		<p class="question">Which group of astrological signs is associated with the element air?
-		</p>
-		<ul>
-			<li><input type="radio" name="group">aries, leo, sagittarius</li>
-			<li><input type="radio" name="group">gemini, libra, aquarius</li>
-			<li><input type="radio" name="group">cancer, scorpio, pisces</li>
-			<li><input type="radio" name="group">taurus, virgo, capricorn</li>
-		</ul>
-		<p class="submit"><input type="submit" name="submit" id ="submit_button" value="SUBMIT"></p>	
-		<p class="correct_answer">CORRECT! Air signs are known for being intellectual, communicative and restless.</p>
-		<!--<p class="wrong_answer">NOPE! Gemini, Libra and Aquarius are the air signs. They are known for being intellectual, communicative and restless.</p>-->
+		<div id="part_1">
+			<p id="question_1"></p>
+			<ul>
+				<li><input type="radio" name="option" class="wrong_1"></li>
+				<li><input type="radio" name="option" id="correct_1"></li>
+				<li><input type="radio" name="option" class="wrong_1"></li>
+				<li><input type="radio" name="option" class="wrong_1"></li>
+			</ul>				
+			<p id="correct_answer_1">CORRECT! Air signs are known for being intellectual, communicative and restless.</p>
+			<p id="wrong_answer_1">NOPE! Gemini, Libra and Aquarius are the air signs. They are known for being intellectual, communicative and restless.</p>
+		</div>		
+		<div id="part_2">
+			<p id="question_2"></p>
+			<ul>
+				<li><input type="radio" name="option" class="wrong_2"></li>
+				<li><input type="radio" name="option" class="wrong_2"></li>
+				<li><input type="radio" name="option" class="wrong_2"></li>
+				<li><input type="radio" name="option" id="correct_2"></li>
+			</ul>
+			<p id="correct_answer_2">CORRECT! Mercury in retrograde is an ideal time to revisit past projects and to avoid starting new ones.</p>
+			<p id="wrong_answer_2">NOPE! Mercury in retrograde is an excellent time to relax and resume past projects, but not a time for new ventures.</p>
+		</div>
+		<div id="part_3">
+			<p id="question_3"></p>
+			<ul>
+				<li><input type="radio" name="option" class="wrong_3"></li>
+				<li><input type="radio" name="option" id="correct_3"></li>
+				<li><input type="radio" name="option" class="wrong_3"></li>
+				<li><input type="radio" name="option" class="wrong_3"></li>
+			</ul>
+			<p id="correct_answer_3">CORRECT! A new  moon is an ideal time to plant your wishes for a full moon harvest.</p>
+			<p id="wrong_answer_3">NOPE! The new moon is the best time to make new wishes.</p>
+		</div>
+		<div id="part_4">
+			<p id="question_4"></p>
+			<ul>
+				<li><input type="radio" name="option" id="correct_4"></li>
+				<li><input type="radio" name="option" class="wrong_4"></li>
+				<li><input type="radio" name="option" class="wrong_4"></li>
+				<li><input type="radio" name="option" class="wrong_4"></li>
+			</ul>
+			<p id="correct_answer_4">CORRECT! The cardinal signs signal the start of a new season.</p>
+			<p id="wrong_answer_4">NOPE! It's the cardinal signs that are known for taking charge and initiating change.</p>
+		</div>
+		<div id="part_5">
+			<p id="question_5"></p>
+			<ul>
+				<li><input type="radio" name="option" class="wrong_5"></li>
+				<li><input type="radio" name="option" class="wrong_5"></li>
+				<li><input type="radio" name="option" id="correct_5"></li>
+				<li><input type="radio" name="option" class="wrong_5"></li>
+			</ul>
+			<p id="correct_answer_5">CORRECT! The ascendent sign is determined by the time you enter the world.</p>
+			<p id="wrong_answer_5">NOPE! The ascendant sign reveals itself during childhood and on first meetings.</p>
+		</div>		
 	</div>
+	<p class="submit"><input type="submit" name="submit" id="submit_button" value="SUBMIT"></p>
 </body>
 </html>

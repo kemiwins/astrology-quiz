@@ -26,20 +26,21 @@ h1 {
 	width: 400px;
 	border-radius: 10%;
 	margin: 20px auto;
-	padding: 20px 20px 0 20px;
+	padding: 20px 20px 0 30px;
 	background-color: #fff;	
 }
-.question {
+#question_1, #question_2, #question_3, #question_4, #question_5 {
 	width: 100%;
 	margin: auto;
 	font-weight: bold;
 }
 ul {
 	list-style-type: none;
-	padding: 0 0 0 35px;
+	padding: 0 0 0 40px;
 }
 .submit {
-	margin-top: 130px;
+	position: relative;
+	margin-top: 20px;
 }
 #submit_button {
 	display: block;
@@ -53,11 +54,11 @@ ul {
 	font-family: "Josefin Slab", serif;
 	font-weight: bold;
 }
-.correct_answer {
-	display: block;
-	margin-top: -190px;
+.correct_answer, {
+	width: 100%;
+	margin-top: -210px;
 }
 .wrong_answer {
 	width: 100%;
-	margin-top: -190px;
+	margin-top: -210px;
 }
