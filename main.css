@@ -22,10 +22,10 @@ h1 {
 	text-align: vertical;		
 }
 #quiz {
-	height: 300px;
+	height: 330px;
 	width: 400px;
 	border-radius: 10%;
-	margin: 20px auto;
+	margin: 20px auto 5px auto;
 	padding: 20px 20px 0 30px;
 	background-color: #fff;	
 }
@@ -38,9 +38,18 @@ ul {
 	list-style-type: none;
 	padding: 0 0 0 40px;
 }
+#next{
+	display: block;
+	margin-top: -30px;
+	padding-left: 300px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
 .submit {
 	position: relative;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 #submit_button {
 	display: block;
@@ -61,4 +70,10 @@ ul {
 .wrong_answer {
 	width: 100%;
 	margin-top: -210px;
+}
+#result {
+	text-align: center;
+}
+#again {
+	cursor: pointer;
 }
