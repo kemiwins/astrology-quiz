@@ -18,8 +18,7 @@ h1 {
 	padding: 10px 0 10px 0;
 	font-size: 70px;
 	font-weight: bold;	
-	color: #fff;
-	text-align: vertical;		
+	color: #fff;	
 }
 #quiz {
 	height: 330px;
@@ -63,7 +62,7 @@ ul {
 	font-family: "Josefin Slab", serif;
 	font-weight: bold;
 }
-.correct_answer, {
+.correct_answer {
 	width: 100%;
 	margin-top: -210px;
 }
